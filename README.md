@@ -1,0 +1,2 @@
+* clone from [ivs-vue](https://github.com/alphacentauri82/ivs-vue) (author:[alphacentauri82](https://github.com/alphacentauri82))
+* for report [issue](https://github.com/aws-samples/amazon-ivs-player-web-sample/issues/30) only.
