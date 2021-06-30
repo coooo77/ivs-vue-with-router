@@ -1,10 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-toolbar-title>
           IVS Vue
@@ -24,19 +20,28 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <ul>
+        <li>
+          <router-link to="/">Player </router-link>
+        </li>
+        <li>
+          <router-link to="/other">Other </router-link>
+        </li>
+      </ul>
+      <!-- <HelloWorld/> -->
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+// import HelloWorld from './components/HelloWorld';
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    HelloWorld,
+    // HelloWorld,
   },
 
   data: () => ({
